@@ -14,6 +14,7 @@ public class StringAufgaben {
 
 		String fullname = firstname.concat(nickname);
 		System.out.println(fullname);
+		System.out.println(fullname.toUpperCase());
 		// länge
 		System.out.println(fullname.length());
 		System.out.println(fullname.charAt(0));
